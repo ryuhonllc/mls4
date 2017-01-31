@@ -1,0 +1,6 @@
+jupyter==1.0.0
+numpy==1.12.0
+ptipython==1.0.0
+# if this doesn't work
+# try the direct download on the tf website
+tensorflow==0.12.1

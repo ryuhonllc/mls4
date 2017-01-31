@@ -21,6 +21,7 @@ For simplicity, we'll look at TensorFlow, although there are many other choices.
 * It's big! And therefore can be hard to wrap one's head around.
 * Installation can be a pain, particularly with GPU support
 * It's API doesn't line up with others such as numpy.
+* It's API is inconsistent (e.g. case in `tf.Variable` vs `tf.constant`)
 
 One must start somewhere, though. In this session, we will focus on
 non-gpu installation.  However, if you have a system with a GPU, feel
@@ -37,11 +38,15 @@ up to work with the unit tests we'll be using in Part B.
 Clone this repo, of course. Then,
 
 ```
-  mkvirtualenv -p `which python` mls4
+  mkvirtualenv -p `which python3` mls4
   pip install -r requirements.txt
 ```
 
 ## download and install
+
+Go [Here](https://www.tensorflow.org/get_started/os_setup#virtualenv_installation) and
+select the version appropriate for your system. We'll be working with python 3.5, although
+the tutorial is not particularly 3.5 specific.
 
 
 
